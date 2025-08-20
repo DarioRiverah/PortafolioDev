@@ -1,0 +1,123 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f7f9fc;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+    border-radius: 12px;
+}
+
+section {
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #0056b3;
+    border-bottom: 2px solid #e6e6e6;
+    padding-bottom: 5px;
+    font-weight: 700;
+}
+
+.foto img {
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 50%;
+    display: block;
+    margin: auto;
+    border: 4px solid #0056b3;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.presentacion p {
+    line-height: 1.6;
+}
+
+/* Barras de progreso */
+.habilidad {
+    margin: 10px 0;
+}
+
+.habilidad span {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.barra {
+    background: #e6e6e6;
+    height: 14px;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.progreso {
+    height: 100%;
+    border-radius: 8px;
+}
+
+.verde { background: #4CAF50; }
+.amarillo { background: #FFC107; }
+.rojo { background: #F44336; }
+
+/* Leyenda */
+.leyenda {
+    margin-top: 10px;
+    font-size: 14px;
+}
+.leyenda span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    margin-right: 5px;
+    border-radius: 3px;
+    vertical-align: middle;
+}
+
+/* Proyectos */
+.proyectos {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 20px;
+}
+.proyecto {
+    background: #fdfdfd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.05);
+}
+.proyecto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+.proyecto p {
+    padding: 12px;
+    font-size: 14px;
+    color: #555;
+}
+
+/* Contacto */
+.contacto ul {
+    list-style: none;
+    padding: 0;
+}
+.contacto li {
+    margin: 8px 0;
+}
+.contacto a {
+    color: #0056b3;
+    font-weight: 500;
+    text-decoration: none;
+}
+.contacto a:hover {
+    text-decoration: underline;
+}
